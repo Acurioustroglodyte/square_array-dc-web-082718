@@ -8,5 +8,6 @@ def square_array(array)
 end
 
 def collect_squared_array(array)
-  squared_array = []
   array.collect {|i| i ** 2}
+end
+ collect_squared_array(1, 2, 3)
