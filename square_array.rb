@@ -10,4 +10,4 @@ end
 def collect_squared_array(array)
   array.collect {|i| i ** 2}
 end
- collect_squared_array(1, 2, 3)
+collect_squared_array([1, 2, 3])
